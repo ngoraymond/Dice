@@ -40,6 +40,14 @@ void draw()
 	rect(50,450,273,20);
 	fill(0,0,255);
 	rect(50,450,sum/2,20);
+	fill(255,0,0);
+	line(187,450,187,470);
+	fill(0);
+	if(sum>273){
+		text("WIN",100,490);
+	} else{
+		text("LOSE",100,490);
+	}
 
 	if(numFive==5)
 	{
