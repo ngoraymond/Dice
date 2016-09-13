@@ -43,7 +43,7 @@ void draw()
 	fill(255,0,0);
 	line(187,450,187,470);
 	fill(0);
-	if(sum>273){
+	if(sum>280){
 		text("WIN",100,490);
 	} else{
 		text("LOSE",100,490);
